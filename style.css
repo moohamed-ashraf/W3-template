@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.logo a:hover {
+  background-color: rgba(174, 173, 173, 0.5);
+  padding: 10px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(174, 173, 173, 0.5);
+  padding: 10px;
+}
+
+#main {
+  position: relative;
+}
+
+#main img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlay-logo {
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.BR-main {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+.Projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Projects-container .Project img {
+  width: 300px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.Project {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Project img {
+  width: 100%;
+  display: block;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-left: 0;
+  margin-left: 15px;
+  font-size: 18px;
+  text-align: left;
+}
+h2 {
+  margin-left: 20px;
+}
+
+hr {
+  width: 98%;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#About > p {
+  margin: 25px;
+  width: 90%;
+}
+.About-container {
+  display: flex;
+  gap: 10px;
+  margin: 25px;
+}
+.About-container .About-Us img {
+  width: 300px;
+}
+
+#About .About-container .About-Us input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+}
+#About .About-container .About-Us input:hover {
+  cursor: pointer;
+  background-color: rgba(168, 166, 166, 0.797);
+}
+#About .About-container .About-Us h3 {
+  font-weight: normal;
+}
+
+#About .About-container .About-Us h4 {
+  font-weight: normal;
+  color: grey;
+}
+
+#About {
+  margin: 15px;
+}
+
+.Contact-container {
+  display: flex;
+  margin: 15px;
+}
+.data {
+  width: 100%;
+  margin: 9px;
+  padding: 15px;
+  font-size: 15px;
+}
+#Contact p {
+  margin-left: 30px;
+}
+#Contact {
+  margin: 25px;
+}
+.Submit {
+  padding: 15px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border: 0;
+}
+.Submit:hover {
+  cursor: pointer;
+  color: black;
+  border: 0;
+  background-color: grey;
+}
+.Street-img img {
+  width: 100%;
+  height: 100vh;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
