@@ -208,3 +208,31 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 760px) and (min-width: 320px) {
+  header {
+    width: 100vw;
+  }
+  #main > img {
+    width: 1000px;
+  }
+  .Projects-container .Project {
+    margin-left: 50px;
+  }
+  .About-container {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+  }
+  .About-container .About-Us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Street-img {
+    width: 1000px;
+  }
+  footer {
+    width: 1000px;
+    text-align: center;
+  }
+}
